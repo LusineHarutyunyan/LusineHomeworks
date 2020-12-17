@@ -6,7 +6,7 @@ public class LessonOvanExFive {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int x = scanner.nextInt();
-        int y = 0;
+        int y;
         if (x > 0) {
             y = 2 * x - 1;
 
